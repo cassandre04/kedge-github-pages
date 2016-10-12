@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+}
+
+#MyFooter {
+	color: rgb(230, 230, 230);
+	background-color: #2D2A32;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+#MyFooter a {
+	font-size : 40px;
+	color : rgb(220, 220, 220);
+}
+#MyFooter a:hover {
+	color: blue;
+}
+
+.circle {
+	margin: 1em;
+}
+
+#teaser {
+	font-family: 'Lobster Two', cursive;
+	background-image: url('images/grid.jpg');
+	line-height: 20px;
+	font-size: 20px;
+}
+
+#Wrapper {
+	background-image: url('images/icecream.jpg');
+	height: 400px;
+	background-size: cover;
+	padding-top: 70px;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 20px rgba(0, 0, O, .7);
+	font-family: 'Cormorant Garamond', serif;
+}
+.vertical-spacer {
+	height: 4em;
+}
+h1 {
+	padding-bottom: 1em;
+}
+h2 {
+	padding-bottom: 1em;
+}
+
+.small-spacer {
+	height: 1em;
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
